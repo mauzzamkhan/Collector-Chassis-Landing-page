@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script src="/Js/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="dropdown" />
+    <nav class="nav-container">
+      <div class="logo-nav-container">
+        <div class="logo"><img src="./Assets/logo/logo.png" alt="logo" /></div>
+        <ul>
+          <li><a href="">Auctions</a></li>
+          <li><a href="">Collections</a></li>
+          <li><a href="">General Listing</a></li>
+          <li><a href="">Submit Vehicle</a></li>
+          <li><a href="">How it works</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <div class="search-input-container">
+          <input type="text" placeholder="Search for Cars..." />
+          <span class="search-icon"></span>
+        </div>
+        <button href="#explore" class="btn btn-primary">Login</button>
+      </div>
+      <label for="dropdown" class="bar">
+        <span class="fa fa-bars" id="bars"></span>
+        <span class="fa fa-times" id="times"></span>
+      </label>
+    </nav>
+
+    <div class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Cool Collections<br />Auctions & General Listings
+          </h1>
+          <button href="#explore" class="btn btn-primary">Get Started</button>
+        </div>
+        <div class="empty"></div>
+      </div>
+    </div>
+
+    <div class="collections-section">
+      <div class="container">
+        <h3 class="section-heading">Cool Collections</h3>
+        <div class="cards-wrapper"></div>
+        <button href="#explore" class="btn btn-primary mt-60">
+          More Collections
+        </button>
+      </div>
+    </div>
+
+    <div class="auctions-section">
+      <div class="container">
+        <h3 class="section-heading">Awesome Collector Auctions</h3>
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image-container">
+              <img src="./Assets/AuctionImgs/2015BMWM4.png" alt="" />
+              <div class="overlay"></div>
+            </div>
+            <div class="content">
+              <div class="info-content">
+                <h6 class="title">2015 BMW M4</h6>
+                <p class="description">
+                  This is a 2015 (F83) M4 hardtop convertible BMW Individual in
+                  Peridot Green Metallic with Opal White Interior and Dark Red
+                  Sycamore wood trim.
+                </p>
+                <div class="icon-text">
+                  <img
+                    src="./Assets/Icons/LocationIcon.svg"
+                    alt="location"
+                    srcset=""
+                  />
+                  <span>South Carolina, 29706</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <p>Current Bid: <span>$10,250</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="./Assets/AuctionImgs/2001SubaruImpreza.png" alt="" />
+              <div class="overlay"></div>
+            </div>
+            <div class="content">
+              <div class="info-content">
+                <h6 class="title">2001 Subaru Impreza 2.5 Rs Coupe</h6>
+                <p class="description">
+                  This 2001 Subaru Impreza 2.5RS in Blue Ridge Pearl Metallic is
+                  modified.
+                </p>
+                <div class="icon-text">
+                  <img
+                    src="./Assets/Icons/LocationIcon.svg"
+                    alt="location"
+                    srcset=""
+                  />
+                  <span>New York, 11704</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <p>Current Bid: <span>$27,000</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="./Assets/AuctionImgs/1981BMW323iAlpina.png" alt="" />
+              <div class="overlay"></div>
+            </div>
+            <div class="content">
+              <div class="info-content">
+                <h6 class="title">1981 BMW 323i Alpina B6 2.8</h6>
+                <p class="description">
+                  This is a 1981 Alpina B6 2.8 based on the original BMW e21
+                  3-series with approximately 141k miles.
+                </p>
+                <div class="icon-text">
+                  <img
+                    src="./Assets/Icons/LocationIcon.svg"
+                    alt="location"
+                    srcset=""
+                  />
+                  <span>Pennsylvania, 19501</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <p>Current Bid: <span>$20,340</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="./Assets/AuctionImgs/1973BMW2002tii.png" alt="" />
+              <div class="overlay"></div>
+            </div>
+            <div class="content">
+              <div class="info-content">
+                <h6 class="title">1973 BMW 2002tii</h6>
+                <p class="description">
+                  This is a 1973 BMW Euro-version 2002tii with sunroof, A/C, and
+                  4-speed transmission.
+                </p>
+                <div class="icon-text">
+                  <img
+                    src="./Assets/Icons/LocationIcon.svg"
+                    alt="location"
+                    srcset=""
+                  />
+                  <span>California, 91767</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <p>Current Bid: <span>$55,000</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button href="#explore" class="btn btn-primary mt-60">
+          More Auctions
+        </button>
+      </div>
+    </div>
+
+    <div class="general-section">
+      <div class="container">
+        <div class="col-6">
+          <h6 class="section-heading">Latest News</h6>
+          <div class="news-card-wrapper">
+            <div class="card">
+              <div class="author-info-container">
+                <img
+                  src="./Assets/News/Author1.png"
+                  class="profile"
+                  alt="author profile"
+                />
+                <div class="author-info">
+                  <p class="username">Haillie Parker</p>
+                  <div class="details">
+                    <div class="info-container">
+                      <img src="./Assets/Icons/DateIcon.svg" alt="" />
+                      <p class="info">February 11</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/CommentIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/LikeIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="description">
+                I've always loved the e36 chassis as long as I can remember, in
+                fact my first BMW was a 1998 CPO 323iS Coupe. Through the years
+                I've gone on to own just about every body style I could of this
+                generation with the Touring (Wagon) being the exception, because
+                BMW NA never imported them here. Finally being eligble for
+                import my experience is complet...
+              </p>
+              <div class="uploaded-images">
+                <div>
+                  <img src="./Assets/News/postOneImage.png" alt="" />
+                </div>
+                <div>
+                  <img src="./Assets/News/postTwoImage.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="author-info-container">
+                <img
+                  src="./Assets/News/Author1.png"
+                  class="profile"
+                  alt="author profile"
+                />
+                <div class="author-info">
+                  <p class="username">Haillie Parker</p>
+                  <div class="details">
+                    <div class="info-container">
+                      <img src="./Assets/Icons/DateIcon.svg" alt="" />
+                      <p class="info">February 11</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/CommentIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/LikeIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="description">
+                I've always loved the e36 chassis as long as I can remember, in
+                fact my first BMW was a 1998 CPO 323iS Coupe. Through the years
+                I've gone on to own just about every body style I could of this
+                generation with the Touring (Wagon) being the exception, because
+                BMW NA never imported them here. Finally being eligble for
+                import my experience is complet...
+              </p>
+              <div class="uploaded-images">
+                <div>
+                  <img src="./Assets/News/postOneImage.png" alt="" />
+                </div>
+                <div>
+                  <img src="./Assets/News/postTwoImage.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="author-info-container">
+                <img
+                  src="./Assets/News/Author1.png"
+                  class="profile"
+                  alt="author profile"
+                />
+                <div class="author-info">
+                  <p class="username">Haillie Parker</p>
+                  <div class="details">
+                    <div class="info-container">
+                      <img src="./Assets/Icons/DateIcon.svg" alt="" />
+                      <p class="info">February 11</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/CommentIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                    <div class="info-container">
+                      <img src="./Assets/Icons/LikeIcon.svg" alt="" />
+                      <p class="info">0</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="description">
+                I've always loved the e36 chassis as long as I can remember, in
+                fact my first BMW was a 1998 CPO 323iS Coupe. Through the years
+                I've gone on to own just about every body style I could of this
+                generation with the Touring (Wagon) being the exception, because
+                BMW NA never imported them here. Finally being eligble for
+                import my experience is complet...
+              </p>
+              <div class="uploaded-images">
+                <div>
+                  <img src="./Assets/News/postOneImage.png" alt="" />
+                </div>
+                <div>
+                  <img src="./Assets/News/postTwoImage.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h6 class="section-heading">General Listings</h6>
+          <div class="cars-listing-card-wrapper">
+            <div class="card">
+              <img src="./Assets/News/2000BMW540i.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">2000 BMW 540i Sport Package</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$9,000</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/News/2001BMWM3.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">2001 BMW M3</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$26,000</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/News/1988BMWM6.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">1988 BMW M6</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$49,500</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/News/2018 BMW M5.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">2018 BMW M5</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$156,000</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/News/974BMW2002.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">974 BMW 2002</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$37,000</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/News/2022BMWM3.png" alt="" />
+              <div class="content">
+                <div class="name-container">
+                  <p class="car-name">2022 BMW M3</p>
+                </div>
+                <div class="price-footer">
+                  <p>Current Offer: <span>$0</span></p>
+                  <p>Buy Now: <span class="buy-price">$80,950</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button href="#explore" class="btn btn-primary mt-40">
+            More General Listings
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="upcoming-event-section">
+      <div class="container">
+        <div class="details">
+          <div class="badge"><span>Upcoming Events</span></div>
+          <div class="content">
+            <p class="sub-heading">
+              The Golf Club of Amelia Island, Amelia Island
+            </p>
+            <h6 class="heading">Amelia Island Concours d'Elegance</h6>
+            <p class="date">MARCH 4TH - 5TH, 2023</p>
+            <button href="#explore" class="btn btn-primary">More Events</button>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="./Assets/Events/EventImg.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-section">
+      <div class="content">
+        <h4 class="heading">LOOKING TO SELL YOUR CAR?</h4>
+        <p class="description">Free to List</p>
+      </div>
+      <button href="#explore" class="btn">
+        SUBMIT YOUR COLLECTOR VEHICLE NOW
+      </button>
+    </div>
+
+    <footer class="footer-menu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Fees</a></li>
+        <li><a href="">Photo Tips</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms</a></li>
+      </ul>
+    </footer>
+    <footer class="news-letter">
+      <div class="info">
+        <img src="./Assets/logo/logoWhite.png" class="logo" alt="logo" />
+        <div class="social-icons">
+          <span> <img src="./Assets/Icons/fbIcon.svg" alt="logo" /> </span>
+          <span> <img src="./Assets/Icons/InstaIcon.svg" alt="logo" /> </span>
+        </div>
+        <p>Sign up for weekly newsletter</p>
+        <div class="search-input-container">
+          <input type="text" placeholder="Enter your email here..." />
+          <span class="search-icon"></span>
+        </div>
+      </div>
+    </footer>
+    <footer class="copyrights">
+      <span
+        >Copyright © 2018-2020 Collector Chassis, Inc. All Rights
+        Reserved.</span
+      >
+    </footer>
+  </body>
+</html>
